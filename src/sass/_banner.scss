@@ -1,6 +1,58 @@
-.banner {
+.box {
     width: 1230px;
     height: 500px;
-    border: 1px solid;
-    margin: 0 auto;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.box ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box ul li {
+    width: 1230px;
+    height: 500px;
+    float: left;
+}
+
+.box ul li a {
+    width: 1230px;
+    height: 500px;
+    display: block;
+}
+
+.box ul li a img {
+    width: 1230px;
+    height: 500px;
+}
+
+.box ol {
+    width: 210px;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 20px;
+}
+
+.box ol li {
+    background: black;
+    width: 25px;
+    height: 5px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 5px;
+    cursor: pointer;
+    opacity: .3;
+}
+
+.box ol li.active {
+    background: white;
+}
+
+.banner {
+    background: #cccccc;
 }
